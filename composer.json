@@ -1,41 +1,57 @@
 {
-	"name": "burzum/cakephp-html-purifier",
-	"type": "cakephp-plugin",
-	"description": "HtmlPurifier plugin for CakePHP",
-	"keywords": ["html", "sanitize", "purifier", "validation", "tidy", "markup"],
-	"homepage": "http://github.com/burzum/cakephp-html-purifier",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Florian Krämer",
-			"homepage": "http://florian-kraemer.net"
-		}
-	],
-	"minimum-stability": "stable",
-	"require": {
-		"php": ">=7.2 <9",
-		"cakephp/cakephp": "^4.0",
-		"ezyang/htmlpurifier": "*"
-	},
-	"require-dev": {
-                "cakephp/cakephp-codesniffer": "~4.2.0",
-		"phpunit/phpunit": "~8.5.0"
-	},
-	"autoload": {
-		"psr-4": {
-			"Burzum\\HtmlPurifier\\": "src",
-			"Burzum\\HtmlPurifier\\Test\\Fixture\\": "tests\\Fixture"
-		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"Cake\\Test\\": "/vendor/cakephp/cakephp/tests",
-			"Burzum\\HtmlPurifier\\Test\\": "tests"
-		}
-	},
-	"config": {
-		"allow-plugins": {
-			"dealerdirect/phpcodesniffer-composer-installer": true
-		}
-	}
+  "name": "tiemez/cakephp-html-purifier",
+  "type": "cakephp-plugin",
+  "description": "HtmlPurifier plugin for CakePHP",
+  "keywords": [
+    "html",
+    "sanitize",
+    "purifier",
+    "validation",
+    "tidy",
+    "markup"
+  ],
+  "homepage": "http://github.com/tiemez/cakephp-html-purifier",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Florian Krämer",
+      "homepage": "http://florian-kraemer.net",
+      "role": "hero"
+    },
+    {
+      "name": "Rob Tiemessen",
+      "homepage": "https://github.com/tiemez",
+      "role": "maintenance, original project is readonly"
+    }
+  ],
+  "replace": {
+    "burzum/cakephp-html-purifier": "4.0.0"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2 <9",
+    "cakephp/cakephp": "^4.0",
+    "ezyang/htmlpurifier": "*"
+  },
+  "require-dev": {
+    "cakephp/cakephp-codesniffer": "~4.2.0",
+    "phpunit/phpunit": "~8.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tiemez\\HtmlPurifier\\": "src",
+      "Tiemez\\HtmlPurifier\\Test\\Fixture\\": "tests\\Fixture"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Cake\\Test\\": "/vendor/cakephp/cakephp/tests",
+      "Tiemez\\HtmlPurifier\\Test\\": "tests"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
 }

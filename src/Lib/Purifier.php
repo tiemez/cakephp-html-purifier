@@ -6,7 +6,9 @@
  * @copyright 2012 - 2018 Florian Krämer
  * @license   MIT
  */
-namespace Burzum\HtmlPurifier\Lib;
+namespace Tiemez\HtmlPurifier\Lib;
+
+use HTMLPurifier;
 
 /**
  * Purifier

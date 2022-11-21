@@ -1,4 +1,4 @@
-CakePHP HTML Purifier Plugin
+CakePHP HTML Purifier Plugin (copy from archived project)
 ----------------------------
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.txt)

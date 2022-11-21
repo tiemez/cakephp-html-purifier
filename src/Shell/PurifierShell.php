@@ -6,7 +6,7 @@
  * @copyright 2012 - 2018 Florian Krämer
  * @license   MIT
  */
-namespace Burzum\HtmlPurifier\Shell;
+namespace Tiemez\HtmlPurifier\Shell;
 
 use Cake\Console\ConsoleOptionParser;
 use Cake\Console\Shell;

@@ -1,10 +1,10 @@
 <?php
-namespace Burzum\HtmlPurifier\Test\TestCase\View\Helper;
+namespace Tiemez\HtmlPurifier\Test\TestCase\View\Helper;
 
 use Cake\TestSuite\TestCase;
 use Cake\View\View;
-use Burzum\HtmlPurifier\Lib\Purifier;
-use Burzum\HtmlPurifier\View\Helper\HtmlPurifierHelper;
+use Tiemez\HtmlPurifier\Lib\Purifier;
+use Tiemez\HtmlPurifier\View\Helper\HtmlPurifierHelper;
 
 class HtmlHelperTest extends TestCase {
 

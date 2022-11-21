@@ -1,10 +1,10 @@
 <?php
-namespace Burzum\HtmlPurifier\Test\TestCase\Lib;
+namespace Tiemez\HtmlPurifier\Test\TestCase\Lib;
 
-use Burzum\HtmlPurifier\Lib\PurifierTrait;
+use Tiemez\HtmlPurifier\Lib\PurifierTrait;
 use Cake\TestSuite\TestCase;
 
-use Burzum\HtmlPurifier\Lib\Purifier;
+use Tiemez\HtmlPurifier\Lib\Purifier;
 
 class PurifierTraitTestClass {
 
@@ -14,7 +14,7 @@ class PurifierTraitTestClass {
 class PurifierTraitTest extends TestCase {
 
     /**
-     * @var Burzum\HtmlPurifier\Test\TestCase\Lib\PurifierTraitTestClass
+     * @var Tiemez\HtmlPurifier\Test\TestCase\Lib\PurifierTraitTestClass
      */
     public $testClass;
 

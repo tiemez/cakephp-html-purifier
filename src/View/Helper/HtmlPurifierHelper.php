@@ -6,9 +6,9 @@
  * @copyright 2012 - 2018 Florian Krämer
  * @license MIT
  */
-namespace Burzum\HtmlPurifier\View\Helper;
+namespace Tiemez\HtmlPurifier\View\Helper;
 
-use Burzum\HtmlPurifier\Lib\Purifier;
+use Tiemez\HtmlPurifier\Lib\Purifier;
 use Cake\View\Helper;
 
 /**

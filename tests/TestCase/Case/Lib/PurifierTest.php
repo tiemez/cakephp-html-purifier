@@ -1,9 +1,9 @@
 <?php
-namespace Burzum\HtmlPurifier\Test\TestCase\Lib;
+namespace Tiemez\HtmlPurifier\Test\TestCase\Lib;
 
 use Cake\TestSuite\TestCase;
 
-use Burzum\HtmlPurifier\Lib\Purifier;
+use Tiemez\HtmlPurifier\Lib\Purifier;
 
 /**
  * PurifierTest

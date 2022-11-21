@@ -6,9 +6,9 @@
  * @copyright 2012 - 2016 Florian Krämer
  * @license MIT
  */
-namespace Burzum\HtmlPurifier\Test\TestCase\Model\Behavior;
+namespace Tiemez\HtmlPurifier\Test\TestCase\Model\Behavior;
 
-use Burzum\HtmlPurifier\Lib\Purifier;
+use Tiemez\HtmlPurifier\Lib\Purifier;
 use Cake\Event\Event;
 use Cake\ORM\TableRegistry;
 use Cake\ORM\Table;

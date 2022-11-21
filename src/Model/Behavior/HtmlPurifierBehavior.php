@@ -6,10 +6,10 @@
  * @copyright 2012 - 2018 Florian Krämer
  * @license   MIT
  */
-namespace Burzum\HtmlPurifier\Model\Behavior;
+namespace Tiemez\HtmlPurifier\Model\Behavior;
 
 use ArrayObject;
-use Burzum\HtmlPurifier\Lib\PurifierTrait;
+use Tiemez\HtmlPurifier\Lib\PurifierTrait;
 use Cake\Event\Event;
 use Cake\ORM\Behavior;
 
