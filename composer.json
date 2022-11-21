@@ -13,7 +13,7 @@
 	],
 	"minimum-stability": "stable",
 	"require": {
-		"php": "^7.2",
+		"php": ">=7.2 <9",
 		"cakephp/cakephp": "^4.0",
 		"ezyang/htmlpurifier": "*"
 	},
@@ -31,6 +31,11 @@
 		"psr-4": {
 			"Cake\\Test\\": "/vendor/cakephp/cakephp/tests",
 			"Burzum\\HtmlPurifier\\Test\\": "tests"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
 		}
 	}
 }
